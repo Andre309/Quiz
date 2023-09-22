@@ -284,6 +284,36 @@ literatura4.addEventListener('click', function() {
 
 /*Клік на 5 питання*/
 
+design5.addEventListener('click', function() {
+    setTimeout(function() {
+        design5.style.backgroundColor = "red";
+    }, 300);
+    setTimeout(function() {
+    question6.style.display = 'block';
+    container5.style.display = 'none';
+    }, 1000);
+});
+
+music5.addEventListener('click', function() {
+    setTimeout(function() {
+        music5.style.backgroundColor = "red";
+    }, 300);
+    setTimeout(function() {
+    question6.style.display = 'block';
+    container5.style.display = 'none';
+        }, 1000);
+});
+
+film5.addEventListener('click', function() {
+    setTimeout(function() {
+        film5.style.backgroundColor = "red";
+    }, 300);
+    setTimeout(function() {
+        question6.style.display = 'block';
+        container5.style.display = 'none';
+        }, 1000);
+});
+
 literatura5.addEventListener('click', function() {
     setTimeout(function() {
         literatura5.style.backgroundColor = "green";
