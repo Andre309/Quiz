@@ -33,6 +33,7 @@ const literatura5 = document.getElementById('btn-all-answers');
 const container5 = document.getElementById('btn-container5');
 
 const question6 = document.getElementById('question6');
+const gratitude = document.getElementById('btn-gratitude');
 
 /*Клік на перше питання*/
 
@@ -289,6 +290,7 @@ design5.addEventListener('click', function() {
         design5.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+    gratitude.style.display = 'block';
     question6.style.display = 'block';
     container5.style.display = 'none';
     }, 1000);
@@ -299,6 +301,7 @@ music5.addEventListener('click', function() {
         music5.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+    gratitude.style.display = 'block';
     question6.style.display = 'block';
     container5.style.display = 'none';
         }, 1000);
@@ -309,6 +312,7 @@ film5.addEventListener('click', function() {
         film5.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        gratitude.style.display = 'block';
         question6.style.display = 'block';
         container5.style.display = 'none';
         }, 1000);
@@ -319,6 +323,7 @@ literatura5.addEventListener('click', function() {
         literatura5.style.backgroundColor = "green";
     }, 300);
     setTimeout(function() {
+        gratitude.style.display = 'block';
         question6.style.display = 'block';
         container5.style.display = 'none';
         }, 1000);

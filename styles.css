@@ -9,9 +9,14 @@
 }
 
 .button-design:hover {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
     background-color: darkgoldenrod;
-    border: 10px;
     color: azure;
+    cursor: pointer;
+    padding: 5px;
 }
 
 .button-container {
@@ -42,10 +47,14 @@
 
 .button-design2:hover {
     display: none;
-    background-color:darkgoldenrod;
-    ;
-    border: 10px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
     color: azure;
+    cursor: pointer;
+    padding: 5px;
 }
 
 .button-container2 {
@@ -78,9 +87,14 @@
 
 .button-design3:hover {
     display: none;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
     background-color: darkgoldenrod;
-    border: 10px;
     color: azure;
+    cursor: pointer;
+    padding: 5px;
 }
 
 .button-container3 {
@@ -113,9 +127,14 @@
 
 .button-design4:hover {
     display: none;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
     background-color: darkgoldenrod;
-    border: 10px;
     color: azure;
+    cursor: pointer;
+    padding: 5px;
 }
 
 .button-container4 {
@@ -148,9 +167,14 @@
 
 .button-design5:hover {
     display: none;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
     background-color: darkgoldenrod;
-    border: 10px;
     color: azure;
+    cursor: pointer;
+    padding: 5px;
 }
 
 .button-container5 {
@@ -175,4 +199,14 @@
     padding: 5px;
     display: none;
     color: black;
+}
+
+.gratitude {
+    display: none;
+    background-color: cadetblue;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 5px;
 }
