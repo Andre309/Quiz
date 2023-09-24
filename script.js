@@ -35,13 +35,37 @@ const container5 = document.getElementById('btn-container5');
 const question6 = document.getElementById('question6');
 const gratitude = document.getElementById('btn-gratitude');
 
+const scoreValue = document.querySelector('.score');
+
+let score = 0;
+
 /*Клік на перше питання*/
+
+function displayScore() {
+    let scoreText;
+
+    if (score >=2 && score <=4) {
+        scoreText = "бали";
+    } else if (score === 1) {
+        scoreText = "бал";
+    } else {
+        scoreText = "балів";
+    }
+    scoreValue.style.color = "red";
+    gratitude.textContent = `Ви набрали ${score} ${scoreText}`;
+}
 
 design.addEventListener('click', function() {
     setTimeout(function() {
         design.style.backgroundColor = "green";
     }, 300);
     setTimeout(function() {
+        if (design.style.backgroundColor === "green") {
+            score += 1;
+        } else if (design.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
     container2.style.display = 'block';
     design2.style.display = 'block';
     music2.style.display = 'block';
@@ -57,6 +81,12 @@ music.addEventListener('click', function() {
         music.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (music.style.backgroundColor === "green") {
+            score += 1;
+        } else if (music.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container2.style.display = 'block';
         design2.style.display = 'block';
         music2.style.display = 'block';
@@ -72,6 +102,12 @@ film.addEventListener('click', function() {
         film.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (film.style.backgroundColor === "green") {
+            score += 1;
+        } else if (film.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container2.style.display = 'block';
         design2.style.display = 'block';
         music2.style.display = 'block';
@@ -87,6 +123,12 @@ literatura.addEventListener('click', function() {
         literatura.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (literatura.style.backgroundColor === "green") {
+            score += 1;
+        } else if (literatura.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container2.style.display = 'block';
         design2.style.display = 'block';
         music2.style.display = 'block';
@@ -104,6 +146,12 @@ design2.addEventListener('click', function() {
         design2.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (design2.style.backgroundColor === "green") {
+            score += 1;
+        } else if (design2.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
     container3.style.display = 'block';
     design3.style.display = 'block';
     music3.style.display = 'block';
@@ -119,6 +167,12 @@ music2.addEventListener('click', function() {
         music2.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (music2.style.backgroundColor === "green") {
+            score += 1;
+        } else if (music2.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container3.style.display = 'block';
         design3.style.display = 'block';
         music3.style.display = 'block';
@@ -134,6 +188,12 @@ film2.addEventListener('click', function() {
         film2.style.backgroundColor = "green";
     }, 300);
     setTimeout(function() {
+        if (film2.style.backgroundColor === "green") {
+            score += 1;
+        } else if (film2.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container3.style.display = 'block';
         design3.style.display = 'block';
         music3.style.display = 'block';
@@ -149,6 +209,12 @@ literatura2.addEventListener('click', function() {
         literatura2.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (literatura2.style.backgroundColor === "green") {
+            score += 1;
+        } else if (literatura2.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container3.style.display = 'block';
         design3.style.display = 'block';
         music3.style.display = 'block';
@@ -166,6 +232,12 @@ design3.addEventListener('click', function() {
         design3.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (design3.style.backgroundColor === "green") {
+            score += 1;
+        } else if (design3.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
     container4.style.display = 'block';
     design4.style.display = 'block';
     music4.style.display = 'block';
@@ -181,6 +253,12 @@ music3.addEventListener('click', function() {
         music3.style.backgroundColor = "green";
     }, 300);
     setTimeout(function() {
+        if (music3.style.backgroundColor === "green") {
+            score += 1;
+        } else if (music3.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
     container4.style.display = 'block';
     design4.style.display = 'block';
     music4.style.display = 'block';
@@ -196,6 +274,12 @@ film3.addEventListener('click', function() {
         film3.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (film3.style.backgroundColor === "green") {
+            score += 1;
+        } else if (film3.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container4.style.display = 'block';
         design4.style.display = 'block';
         music4.style.display = 'block';
@@ -211,6 +295,12 @@ literatura3.addEventListener('click', function() {
         literatura3.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (literatura3.style.backgroundColor === "green") {
+            score += 1;
+        } else if (literatura3.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container4.style.display = 'block';
         design4.style.display = 'block';
         music4.style.display = 'block';
@@ -228,6 +318,12 @@ design4.addEventListener('click', function() {
         design4.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (design4.style.backgroundColor === "green") {
+            score += 1;
+        } else if (design4.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
     container5.style.display = 'block';
     design5.style.display = 'block';
     music5.style.display = 'block';
@@ -243,6 +339,12 @@ music4.addEventListener('click', function() {
         music4.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (music4.style.backgroundColor === "green") {
+            score += 1;
+        } else if (music4.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
     container5.style.display = 'block';
     design5.style.display = 'block';
     music5.style.display = 'block';
@@ -258,6 +360,12 @@ film4.addEventListener('click', function() {
         film4.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (film4.style.backgroundColor === "green") {
+            score += 1;
+        } else if (film4.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container5.style.display = 'block';
         design5.style.display = 'block';
         music5.style.display = 'block';
@@ -273,6 +381,12 @@ literatura4.addEventListener('click', function() {
         literatura4.style.backgroundColor = "green";
     }, 300);
     setTimeout(function() {
+        if (literatura4.style.backgroundColor === "green") {
+            score += 1;
+        } else if (literatura4.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        //displayScore();
         container5.style.display = 'block';
         design5.style.display = 'block';
         music5.style.display = 'block';
@@ -290,8 +404,14 @@ design5.addEventListener('click', function() {
         design5.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (design5.style.backgroundColor === "green") {
+            score += 1;
+        } else if (design5.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        displayScore();
     gratitude.style.display = 'block';
-    question6.style.display = 'block';
+    //question6.style.display = 'block';
     container5.style.display = 'none';
     }, 1000);
 });
@@ -301,8 +421,14 @@ music5.addEventListener('click', function() {
         music5.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (music5.style.backgroundColor === "green") {
+            score += 1;
+        } else if (music5.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        displayScore();
     gratitude.style.display = 'block';
-    question6.style.display = 'block';
+    //question6.style.display = 'block';
     container5.style.display = 'none';
         }, 1000);
 });
@@ -312,8 +438,14 @@ film5.addEventListener('click', function() {
         film5.style.backgroundColor = "red";
     }, 300);
     setTimeout(function() {
+        if (film5.style.backgroundColor === "green") {
+            score += 1;
+        } else if (film5.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        displayScore();
         gratitude.style.display = 'block';
-        question6.style.display = 'block';
+        //question6.style.display = 'block';
         container5.style.display = 'none';
         }, 1000);
 });
@@ -323,8 +455,14 @@ literatura5.addEventListener('click', function() {
         literatura5.style.backgroundColor = "green";
     }, 300);
     setTimeout(function() {
+        if (literatura5.style.backgroundColor === "green") {
+            score += 1;
+        } else if (literatura5.style.backgroundColor === "red") {
+            score -= 0;
+        }
+        displayScore();
         gratitude.style.display = 'block';
-        question6.style.display = 'block';
+        //question6.style.display = 'block';
         container5.style.display = 'none';
         }, 1000);
 });

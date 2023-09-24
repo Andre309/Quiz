@@ -1,3 +1,14 @@
+@media (max-width: 768px) {
+    .button-design,
+    .button-design2,
+    .button-design3,
+    .button-design4,
+    .button-design5 {
+        width: 80%; /* Змінюємо ширину кнопок на мобільних пристроях */
+        margin: 5px auto; /* Центруємо кнопки */
+    }
+}
+
 .button-design {
     margin: 0 auto;
     width: 50%;
@@ -203,10 +214,16 @@
 
 .gratitude {
     display: none;
-    background-color: cadetblue;
+    border-radius: 20px;
+    background-color: antiquewhite;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 500px;
-    margin-right: 500px;
-    padding: 5px;
+    padding: 10px;
+    font-family: cursive, sans-serif;
+    position: fixed; /* Фіксована позиція на екрані */
+    top: 20%; /* Розташовуємо посередині вертикально */
+    left: 50%; /* Розташовуємо посередині горизонтально */
+    transform: translate(-50%, -50%); /* Центруємо відносно центру екрану */
+    width: 80%; /* Змінюємо ширину блоку */
+    max-width: 400px; /* Максимальна ширина блоку для малих екранів */
+    margin: 0; /* Видаляємо відступи */
 }
