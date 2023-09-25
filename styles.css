@@ -29,7 +29,7 @@
     text-align: center;
     justify-content: center;
     width: 400px;
-    height: 240px;
+    height: 260px;
     margin: 0 auto;
     /*background-color: bisque;*/
     border-color: red;
@@ -193,7 +193,7 @@
     display: none;
     text-align: center;
     width: 400px;
-    height: 240px;
+    height: 260px;
     margin: 0 auto;
     background-color: bisque;
     border: 12px;
