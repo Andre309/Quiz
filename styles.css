@@ -1,11 +1,6 @@
-@media (max-width: 768px) {
-    .button-design,
-    .button-design2,
-    .button-design3,
-    .button-design4,
-    .button-design5 {
-        width: 80%; /* Змінюємо ширину кнопок на мобільних пристроях */
-        margin: 5px auto; /* Центруємо кнопки */
+@media screen and (max-width: 960px) {
+    .button-container {
+        height: 300px;
     }
 }
 
@@ -32,12 +27,15 @@
 
 .button-container {
     text-align: center;
+    justify-content: center;
     width: 400px;
     height: 240px;
     margin: 0 auto;
-    background-color: bisque;
+    /*background-color: bisque;*/
+    border-color: red;
     border: 12px;
     background-image: url(./img/back2.jpg);
+    background-size: cover;
 }
 
 .question {
@@ -77,6 +75,7 @@
     background-color: bisque;
     border: 12px;
     background-image: url(./img/back2.jpg);
+    background-size: cover;
 }
 
 .question2 {
@@ -117,6 +116,7 @@
     background-color: bisque;
     border: 12px;
     background-image: url(./img/back2.jpg);
+    background-size: cover;
 }
 
 .question3 {
@@ -157,6 +157,7 @@
     background-color: bisque;
     border: 12px;
     background-image: url(./img/back2.jpg);
+    background-size: cover;
 }
 
 .question4 {
@@ -197,6 +198,7 @@
     background-color: bisque;
     border: 12px;
     background-image: url(./img/back2.jpg);
+    background-size: cover;
 }
 
 .question5 {
