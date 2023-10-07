@@ -64,7 +64,7 @@ design.addEventListener('click', function() {
             score += 1;
         } else if (design.style.backgroundColor === "red") {
             score -= 0;
-        }
+        } 
         //displayScore();
     container2.style.display = 'block';
     design2.style.display = 'block';

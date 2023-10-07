@@ -5,7 +5,8 @@ body {
 
 @media screen and (max-width: 960px) {
     .button-container {
-        height: 300px;
+        height: 100vh;
+        background-size: cover;
     }
 }
 
@@ -42,14 +43,20 @@ body {
 .button-container {
     text-align: center;
     justify-content: center;
-    width: 500px;
+    max-width: 500px;
     height: 300px;
     margin: 0 auto;
-    border-color: red;
     border: 12px;
     background-image: url(./img/back2.jpg);
     background-size: cover;
     padding-top: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .button-container {
+        max-width: 700px;
+    background-size: cover;
+    }
 }
 
 .question {
