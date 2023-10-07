@@ -93,7 +93,7 @@ body {
 .button-container2 {
     display: none;
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     height: 300px;
     margin: 0 auto;
     background-color: bisque;
@@ -105,7 +105,7 @@ body {
 
 @media screen and (max-width: 960px) {
     .button-container2 {
-        max-width: 700px;
+        max-width: 500px;
     background-size: cover;
     }
 }
@@ -142,7 +142,7 @@ body {
 .button-container3 {
     display: none;
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     height: 300px;
     margin: 0 auto;
     background-color: bisque;
@@ -191,7 +191,7 @@ body {
 .button-container4 {
     display: none;
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     height: 300px;
     margin: 0 auto;
     background-color: bisque;
@@ -240,7 +240,7 @@ body {
 .button-container5 {
     display: none;
     text-align: center;
-    width: 500px;
+    max-width: 500px;
     height: 300px;
     margin: 0 auto;
     background-color: bisque;
