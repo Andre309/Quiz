@@ -103,6 +103,13 @@ body {
     padding-top: 5px;
 }
 
+@media screen and (max-width: 960px) {
+    .button-container2 {
+        max-width: 700px;
+    background-size: cover;
+    }
+}
+
 .question2 {
     padding: 2px;
     display: none;
@@ -143,6 +150,13 @@ body {
     background-image: url(./img/back2.jpg);
     background-size: cover;
     padding-top: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .button-container3 {
+        max-width: 700px;
+    background-size: cover;
+    }
 }
 
 .question3 {
@@ -187,6 +201,13 @@ body {
     padding-top: 5px;
 }
 
+@media screen and (max-width: 960px) {
+    .button-container4 {
+        max-width: 700px;
+    background-size: cover;
+    }
+}
+
 .question4 {
     padding: 5px;
     display: none;
@@ -227,6 +248,13 @@ body {
     background-image: url(./img/back2.jpg);
     background-size: cover;
     padding-top: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .button-container5 {
+        max-width: 700px;
+    background-size: cover;
+    }
 }
 
 .question5 {
