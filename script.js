@@ -411,7 +411,6 @@ design5.addEventListener('click', function() {
         }
         displayScore();
     gratitude.style.display = 'block';
-    //question6.style.display = 'block';
     container5.style.display = 'none';
     }, 1000);
 });
@@ -428,7 +427,6 @@ music5.addEventListener('click', function() {
         }
         displayScore();
     gratitude.style.display = 'block';
-    //question6.style.display = 'block';
     container5.style.display = 'none';
         }, 1000);
 });
@@ -445,7 +443,6 @@ film5.addEventListener('click', function() {
         }
         displayScore();
         gratitude.style.display = 'block';
-        //question6.style.display = 'block';
         container5.style.display = 'none';
         }, 1000);
 });
@@ -462,7 +459,6 @@ literatura5.addEventListener('click', function() {
         }
         displayScore();
         gratitude.style.display = 'block';
-        //question6.style.display = 'block';
         container5.style.display = 'none';
         }, 1000);
 });
